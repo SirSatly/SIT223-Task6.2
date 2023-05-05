@@ -21,7 +21,7 @@ pipeline {
                 failure {
                     mail to: "hotdelphox@gmail.com",
                     subject: "Unit and Intergration Tests Status",
-                    body: "Unit and intergration tests failed"
+                    body: "Unit test and/or Intergration tests have failed"
                 }
             }
         }
