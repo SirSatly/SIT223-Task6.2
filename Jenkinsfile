@@ -43,7 +43,7 @@ pipeline {
                 failure {
                     mail to: "hotdelphox@gmail.com",
                     subject: "Security Scan Tests Status",
-                    body: "Security scan failed"
+                    body: "Security scan failed. Vulnerabilities detected"
                 }
             }
         }
