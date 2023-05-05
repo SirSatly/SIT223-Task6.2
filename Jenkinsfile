@@ -14,13 +14,13 @@ pipeline {
             }
             post {
                 success {
-                    mail to: "hotdelphox@gmail.com"
-                    subject: "Unit and Intergration Tests Status"
+                    mail to: "hotdelphox@gmail.com",
+                    subject: "Unit and Intergration Tests Status",
                     body: "Unit and intergration tests were successful"
                 }
                 failure {
-                    mail to: "hotdelphox@gmail.com"
-                    subject: "Unit and Intergration Tests Status"
+                    mail to: "hotdelphox@gmail.com",
+                    subject: "Unit and Intergration Tests Status",
                     body: "Unit and intergration tests failed"
                 }
             }
@@ -36,13 +36,13 @@ pipeline {
             }
             post {
                 success {
-                    mail to: "hotdelphox@gmail.com"
-                    subject: "Security Scan Status"
+                    mail to: "hotdelphox@gmail.com",
+                    subject: "Security Scan Status",
                     body: "Security scan was successful"
                 }
                 failure {
-                    mail to: "hotdelphox@gmail.com"
-                    subject: "Security Scan Tests Status"
+                    mail to: "hotdelphox@gmail.com",
+                    subject: "Security Scan Tests Status",
                     body: "Security scan failed"
                 }
             }
@@ -58,13 +58,13 @@ pipeline {
             }
             post {
                 success {
-                    mail to: "hotdelphox@gmail.com"
-                    subject: "Intergration Tests on Staging Status"
+                    mail to: "hotdelphox@gmail.com",
+                    subject: "Intergration Tests on Staging Status",
                     body: "Intergration tests on staging were successful"
                 }
                 failure {
-                    mail to: "hotdelphox@gmail.com"
-                    subject: "Intergration Tests on Staging Status"
+                    mail to: "hotdelphox@gmail.com",
+                    subject: "Intergration Tests on Staging Status",
                     body: "Intergration tests on staging failed"
                 }
             }
